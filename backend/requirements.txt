@@ -1,0 +1,7 @@
+Django==4.2.20
+django-cors-headers==4.7.0
+djangorestframework==3.16.0
+pillow==11.2.1
+django-taggit==6.1.0
+django-taggit-serializer==0.1.7
+

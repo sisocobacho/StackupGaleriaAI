@@ -6,8 +6,7 @@ from rest_framework import routers
 from photo_gallery import views
 
 router = routers.DefaultRouter()
-#router.register(r'photos', views.PhotoViewSet)
-#router.register(r'tags', views.PhotoTagViewSet)
+router.register(r'photos', views.PhotoViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

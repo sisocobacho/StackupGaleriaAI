@@ -9,10 +9,13 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ['id', 'username']
 
+
 class PhotoSerializer(serializers.ModelSerializer):
     user = UserSerializer(read_only=True)
+
     
     class Meta:
         model = Photo
         fields = ['id', 'title', 'description', 'image', 'uploaded_at', 'user', ]
         read_only_fields = ['uploaded_at', 'user']
+
