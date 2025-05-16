@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchPhotos } from '../services/api';
+import { fetchPhotos } from '../services/photo.js';
 import { Link } from 'react-router-dom';
 import {
   Container,

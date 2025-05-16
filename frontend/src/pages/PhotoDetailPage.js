@@ -13,7 +13,7 @@ import {
   Grid,
   Divider
 } from '@mui/material';
-import { fetchPhoto } from '../services/api';
+import { fetchPhoto } from '../services/photo.js';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { format } from 'date-fns';
 
